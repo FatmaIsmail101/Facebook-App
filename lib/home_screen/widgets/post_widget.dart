@@ -31,6 +31,7 @@ class PostWidget extends StatelessWidget {
     return SizedBox(
       height: 400,
       child: ListView.separated(
+
         itemBuilder: (context, index) => Column(
           children: [
             ListTile(
