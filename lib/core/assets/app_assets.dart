@@ -1,7 +1,7 @@
 abstract class AppAssets{
 static const String facebook='assets/images/Facebook.png';
-static const String splashLogo='assets/images/App Rounded Logo.png';
-static const String loginLogo="assets/images/App Rounded Logo.png";
+static const String splashLogo='assets/images/app_rounded_logo.png';
+static const String loginLogo="assets/images/app_rounded_logo.png";
 static const String dog ="assets/images/image1.jpg";
 static const String sea="assets/images/image2.jpg";
 static const String tourist="assets/images/image3.jpg";

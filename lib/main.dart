@@ -1,8 +1,10 @@
 import 'package:facebook_app/home_screen/home_screen.dart';
 import 'package:facebook_app/login/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
+
   runApp(const MyApp());
 }
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Facebook App',
 debugShowCheckedModeBanner: false,
-      initialRoute: HomeScreen.routeName,
+      initialRoute: LoginScreen.routeName,
       routes: {
         LoginScreen.routeName:(context)=>LoginScreen(),
         HomeScreen.routeName:(context)=>HomeScreen()
