@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Facebook App',
 debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.routeName,
+      initialRoute: HomeScreen.routeName,
       routes: {
         LoginScreen.routeName:(context)=>LoginScreen(),
         HomeScreen.routeName:(context)=>HomeScreen()

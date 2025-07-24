@@ -7,4 +7,6 @@ static const String invalidPasswordLength="Password Should be at least 8 charact
   static const String login ="Login";
   static const String forgetPassword="Forgotten Password ?";
   static const String createAccount="Create Account";
+  static const String newPost='What’s in Your Mind?';
+  static const String createStory="Create a \nStory";
 }
